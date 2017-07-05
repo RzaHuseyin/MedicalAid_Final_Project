@@ -1,0 +1,301 @@
+.departments {
+    .departmentList {
+    	padding: 100px 0;
+        
+    }
+
+
+
+
+
+
+
+     /*owl slider*/
+    .owlCarusel {
+        .slider-dp {
+            position: relative;
+            img {
+                filter: brightness(40%);
+                z-index: 1;
+            }
+            img:hover {
+                filter: brightness(80%);
+            }
+            p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                position: absolute;
+                right: 24px;
+                bottom: 20px;
+                position: absolute;
+                z-index: 2;
+            }
+            position: relative;
+            width: 100%;
+            margin: auto;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+            position: relative;
+            text-align: center;
+            ul li .after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: none;
+                color: #FFF;
+            }
+            ul li:hover .after {
+                display: block;
+                background: rgba(0, 0, 0, 1);
+            }
+        }
+        ul li span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100px;
+            height: 100px;
+            background: black;
+        }
+        .slider-arrow {
+            background: none;
+            color: #fff;
+            border: 2px solid #fff;
+            width: 44px;
+            height: 44px;
+            line-height: 40px;
+            text-align: center;
+            padding: 0;
+            border-radius: 100%;
+            margin: 0;
+            opacity: .5;
+            font-size: 18px;
+            margin-top: -22px;
+            position: relative;
+            top: -155px;
+            ;
+        }
+        .left {
+            left: 12px;
+            float: left;
+        }
+        .right {
+            float: right;
+            right: 12px;
+        }
+        .item {
+            width: 0px;
+        }
+    }
+    /*owl slider son*/
+
+
+
+    /*Find a doctor*/
+    .findDoc {
+        @include basliq;
+        padding-top: 100px;
+        fieldset {
+            padding: 38px;
+            border: 1px solid #ebebeb;
+            .form-group {
+                margin-bottom: 22px;
+                label {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #414141;
+                    margin-bottom: 8px;
+                }
+                select {
+                    display: block;
+                    border: none;
+                    background: $graySoft;
+                    width: 100%;
+                    outline: none !important;
+                    line-height: 40px;
+                    height: 40px;
+                    padding: 0 20px;
+                    color: #414141;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    /*find a doctor son*/
+    /*reputation slide*/
+    
+
+  /*reputation slide*/
+    .reputation{
+        padding: 30px 0;
+        
+        .col-lg-4{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .col-lg-8 {
+            overflow: hidden;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        background: $blueMain;
+        h2 {
+            color: white;
+        }
+        .slider-rp {
+            position: relative;
+            img {
+                opacity: 0.25;
+            }
+            img:hover {
+                opacity: 0.7;
+                cursor: pointer;
+                transition: 0.3s ease;
+            }
+            p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                position: absolute;
+                right: 24px;
+                bottom: 20px;
+                position: absolute;
+                z-index: 2;
+            }
+            position: relative;
+            width: 100%;
+            margin: auto;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+            position: relative;
+            text-align: center;
+            ul li .after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: none;
+                color: #FFF;
+            }
+            ul li:hover .after {
+                display: block;
+                background: rgba(0, 0, 0, 1);
+            }
+        }
+        ul li span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100px;
+            height: 100px;
+            background: black;
+        }
+        .left-rp {
+            left: 120px;
+            float: left;
+        }
+        .right-rp {
+            float: right;
+            right: 120px;
+        }
+    }
+    /*reputation slide son*/
+    /*findDisease*/
+    .findDisease {
+        padding-top: 100px 0;
+        img {
+            padding-top: 125px;
+        }
+        .search {
+            background: $graySoft;
+            padding: 30px 35px;
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        h2 {
+            color: black;
+            text-align: center;
+        }
+        button {
+            border: none;
+            font-size: 15px;
+            line-height: 40px;
+            background: none;
+            display: inline-block;
+            padding: 0 20px;
+            color: #b9b9b9;
+            right: 43px;
+            position: absolute;
+            top: 85px
+        }
+        input {
+            border: none;
+            font-size: 15px;
+            line-height: 40px;
+            background: white;
+            display: inline-block;
+            padding: 0 20px;
+            color: #b9b9b9;
+            width: 100%;
+        }
+        .panel-group {
+            padding: 0 30px;
+            padding-bottom: 20px;
+            border: 1px solid #f2f2f2;
+            text-align: left;
+        }
+          a:hover {
+            color: $blueMain;
+        }
+        .active {
+            a {
+                color: $blueMain;
+            }
+        }
+      a{
+        text-decoration: none;
+      }
+       
+        .icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 50%;
+            background: $blueMain;
+            color: #fff;
+            text-align: center;
+            font-size: 8px;
+            float: right;
+            margin-top: 2px;
+        }
+        .panel-heading {
+            background: none;
+        }
+        .panel {
+            margin: 0;
+        }
+        .panel-title {
+            padding: 6px 0;
+        }
+    }
+    /*findDisease son*/
+}
+
+

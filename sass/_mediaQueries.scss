@@ -1,0 +1,414 @@
+.aboutUs {
+    @media only screen and (max-width: 1200px) {
+        .second {
+            padding-top: 66px;
+        }
+    } @media only screen and (max-width: 767px) {
+      
+    }
+    @media only screen and (max-width: 992px) {
+        .second {
+            padding-top: 0px !important;
+        }
+          .content{
+            padding-top: 210px !important;
+        }
+        .col-sm-6 {
+            img {
+                padding-top: 155px;
+            }
+            .slideshow {
+                margin-top: 184px;
+                padding-top: 156px;
+            }
+        }
+    }
+}
+
+.header {
+    @media only screen and (max-width: 1200px) {
+        .row:after, .row:before, .xettler {
+            display: none;
+        }
+        .makeAppointment {
+            a {
+                font-size: 12px;
+            }
+        }
+        .navbar a {
+            line-height: 67px;
+            font-size: 11px;
+            padding-left: 8px;
+            padding-left: inherit;
+        }  
+    }
+    @media only screen and (max-width: 992px) {
+        .logo {
+            text-align: -webkit-center;
+        }  .navbar-collapse{
+        a:hover{
+           background: $blueSoft !important; 
+        }
+                
+            }
+        .makeAppointment {}
+    }
+    @media only screen and (max-width: 767px) {
+        
+    .navbar-collapse{
+        a:hover{
+           background: $blueSoft !important; 
+        }
+                
+            }
+
+        .navbar {
+            position: relative;
+        }
+        .makeAppointment {
+            position: absolute;
+            padding: 0px !important;
+            top: 102px;
+            left: 30px;
+            width: 63% !important;
+        }
+        .navbar-collapse a:hover {
+            background-color: $blueSoft;
+        }
+        .navbar-collapse a:hover {
+            background-color: $blueSoft;
+        }
+        .navbar-collapse .homeButton:after {
+            background: transparent;
+        }
+        .navbar-collapse a:hover:after {
+            background: transparent;
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+    /*responsivlik son*/
+}
+
+@media (max-width: 768px) {
+    .slideshow {
+        margin-top: 0 !important;
+        padding-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .slideshow {
+        height: 513px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {}
+
+.raiting {
+    @media (min-width: 1200px) {}
+    @media (min-width: 768px) and (max-width: 979px) {}
+    @media only screen and (max-width: 768px) {
+        .serviceHeader{
+            text-align: center;
+            position: relative;
+            bottom: 40px !important; 
+            h2{
+                line-height: 40px !important;
+
+            }
+        }
+
+
+        .content {
+            padding-bottom: 240px !important;
+        }
+    }
+}
+
+.donateBlood {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {}
+    @media only screen and (max-width: 992px) {}
+}
+
+@media only screen and (max-width: 768px) {
+    .bottom-banner {
+        padding: 0 42px !important;
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+    @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 320px) {}
+    }
+}
+
+.blogPost {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {}
+    @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {
+        .col-sm-4 {
+            text-align: -webkit-center;
+        }
+        @media only screen and (max-width: 480px) {}
+        @media only screen and (max-width: 320px) {}
+    }
+}
+
+.homePage {
+    .contactUs {
+        @media (min-width: 1200px) {}
+        @media only screen and (max-width: 1200px) {}
+        @media only screen and (max-width: 992px) {
+            .col-sm-4 {
+                img {
+                    padding-top: 260px;
+                }
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .col-sm-4 {
+                img {
+                    float: left;
+                    left: -40px !important;
+                }
+            }
+            @media only screen and (max-width: 480px) {}
+            @media only screen and (max-width: 320px) {}
+        }
+    }
+}
+
+.reklam {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {
+        img{
+            height: 53px;
+        }
+    }
+    @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {
+        .clients {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            img {
+                padding-bottom: 10px !important;
+            }
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+}
+
+.reputation {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {
+        li{
+            padding-left: 5px;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .col-md-12 {
+            padding-bottom: 20px;
+            color: red;
+        }
+
+         li{
+            padding-left: 5px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .col-md-12 {
+            padding-bottom: 20px;
+        }
+        .right-rp {
+            float: right;
+            right: 80px !important;
+        }
+
+         .left-rp {
+            float: left;
+            left: 80px !important;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .right-rp {
+            float: right;
+            right: 40px !important;
+        }
+        .left-rp {
+            float: left;
+            left: 40px !important;
+        }
+    }
+    @media only screen and (max-width: 320px) {}
+}
+
+.request {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {}
+    @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {
+        .col-sm-7 {
+            position: inherit;
+        }
+        .col-sm-5 {
+            float: inherit;
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+}
+
+.blueSection {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {}
+    @media only screen and (max-width: 992px) {
+       
+    }
+    @media only screen and (max-width: 768px) {
+        .container {
+            padding-bottom: 55px;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        h3{
+            font-size:9px!important;
+        }
+    }
+    @media only screen and (max-width: 320px) {}
+}
+
+
+
+.raiting {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 1020px) {
+        .video:after {
+           /* display: none !important;*/
+           height: 53px!important;
+           bottom: -53px !important;
+        }
+        .col-sm-7{
+            
+            padding-bottom: 0px !important;
+        }
+    }
+    @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {
+
+           .video:after {
+           display: none !important;
+       }
+        .circularBars {
+            display: none;
+        }
+        .col-xs-9 {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+}
+
+.login {
+    @media only screen and (max-width: 1200px) {
+        .col-sm-4 {
+            img {
+                bottom: -461px;
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .col-sm-4 {
+            img {
+                bottom: -707px;
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .col-sm-4 {
+            img {
+                position: initial;
+                margin-top: 0px;
+            }
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+}
+
+.section404 {
+    @media only screen and (max-width: 992px) {
+        img {
+            margin-top: 92px !important;
+        }
+    }
+}
+
+.WaysToGive {
+    @media only screen and (max-width: 1200px) {
+        .donateNow {
+            .col-sm-5 {
+                img {
+                    bottom: -339px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .donateNow {
+            .col-sm-5 {
+                img {
+                    bottom: -503px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .donateNow {
+            .col-sm-5 {
+                img {
+                    position: initial;
+                    margin-top: 0px !important;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+}
+
+.donateBlood {
+    @media (min-width: 1200px) {}
+    @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {
+        .col-sm-8 {
+            .col-sm-4 {
+                text-align: center;
+            }
+        }
+    }
+    @media only screen and (max-width: 480px) {}
+    @media only screen and (max-width: 320px) {}
+}
+
+.contactUs{
+      @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {
+      /* .team-member{
+            background: red;
+            margin:0px !important;
+        }*/
+    }
+    @media only screen and (max-width: 480px) {
+        .team-member{
+            background: red;
+            margin:0px !important;
+        }
+    }
+    @media only screen and (max-width: 320px) {}
+}

@@ -1,0 +1,51 @@
+.faq-page {
+    .accordion {
+        padding: 100px 0;
+
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        .panel {
+            margin: 0;
+            border-radius: 0;
+            border-bottom: 1px solid #f7f7f7;
+        }
+        .panel-heading {
+            background: none
+        }
+
+             a:hover {
+            color: $blueMain;
+        }
+        .active {
+            a {
+                color: $blueMain;
+            }
+        }
+      a{
+        text-decoration: none;
+      }
+        .panel-title {
+            text-transform: none;
+            font-size: 16px;
+            line-height: 56px;
+            .icon {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                border-radius: 50%;
+                background: $blueMain;
+                color: #fff;
+                text-align: center;
+                font-size: 8px;
+                float: right;
+                margin-top: 18px;
+            }
+        }
+        
+            
+       
+    }
+}

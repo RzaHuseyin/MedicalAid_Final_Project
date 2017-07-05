@@ -1,0 +1,279 @@
+    $orangeMain:#FF820E;
+    $blueMain:#0199ED;
+    $blueSoft:#17A4F3;
+    $grayMain:#e5e5e5;
+    $graySoft:#F6F6F6;
+    /*her sectionun basindaki h2 texti ucun*/
+    
+    @mixin basliq {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h1 {
+            text-align: center;
+            color: $blueMain;
+        }
+        h1:after {
+            content: '';
+            display: block;
+            width: 54px;
+            height: 5px;
+            border-radius: 5px;
+            margin: 0 auto;
+            background: $grayMain;
+            margin-top: 4px;
+        }
+    }
+    /*margin 0*/
+    
+    @mixin ms {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    /*------------------------------------------------*/
+    /*title section*/
+    
+/*     .title {
+    li {
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    .page-title {
+        color: $blueMain;
+        line-height: 62px;
+        font-weight: 700;
+        border-bottom: 1px solid #f9f9f9;
+        padding-bottom: 1px;
+        text-align: right;
+    }
+    .breadcrumbs {
+        font-size: 0;
+        display: block;
+        height: 62px;
+        border-bottom: 2px solid #f9f9f9;
+    }
+}
+header section
+
+.header {
+    .duzXett {
+        background: white;
+        float: left;
+        height: 110px;
+        width: 3px;
+        position: absolute;
+        top: -1px;
+        left: 9px;
+    }
+    .duzXettSecond {
+        background: white;
+        float: left;
+        height: 110px;
+        width: 3px;
+        position: absolute;
+        top: -1px;
+        left: 3px;
+    }
+    .makeAppointment {
+        background-color: $blueMain;
+        padding-left: 0;
+        padding-right: 0;
+        list-style-type: none;
+        padding: 20px 0px;
+        padding-top: 22px;
+        a {
+            line-height: 67px;
+            font-size: 14px;
+            color: white;
+            padding: 10px 6px;
+            background: $blueSoft;
+        }
+        :before {
+            content: '';
+            display: block;
+            width: 1000%;
+            height: 114px;
+            position: absolute;
+            top: -5%;
+            left: 100%;
+            background: #0199ed;
+            z-index: 1;
+        }
+    }
+    .logo {
+        padding-left: 15px;
+        padding-right: 0;
+        background: white;
+    }
+    .navbar {
+        border-radius: 0;
+        padding: 10px 0px;
+        margin-bottom: 0px;
+        background-color: $blueMain;
+        a {
+            line-height: 67px;
+            font-size: 14px;
+            color: white;
+        }
+        a:hover,
+        a:active {
+            background: $blueMain;
+        }
+        .nav>li>a {
+            position: relative;
+            display: block;
+            padding: 10px 14px;
+        }
+    }
+    .dropdown-menu {
+        background: $blueSoft;
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        a {
+            line-height: 40px;
+        }
+        a:hover {
+            background-color: $blueMain;
+            transition: 0.3s ease;
+        }
+    }
+    .nav .open>a,
+    .nav .open>a:focus,
+    .nav .open>a:hover {
+        background-color: $blueMain;
+        border-color: $blueMain;
+    }
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: $blueMain;
+    }
+}
+header son
+
+footer section
+
+.footer {
+    .bottom {
+        padding: 10px 0;
+    }
+    .top {
+        padding: 76px 0;
+    }
+    .first {
+        text-align: -webkit-center;
+    }
+    .col-sm-3 {
+        input {
+            width: 100%;
+            line-height: 33px;
+            padding: 0 14px;
+            background: none;
+            border: 1px solid #4b4b4b;
+            color: #fff;
+            font-size: 14px;
+            height: 35px;
+        }
+    }
+    a {
+        color: #8f8f8f;
+    }
+    background: #2B2B2B;
+    h4,
+    h2 {
+        color: white;
+    }
+    .footer ul {
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    .footer .post {
+        margin-bottom: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #3b3b3b;
+        img {
+            float: left;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            box-shadow: 1px 1px 3px #2b2b2b;
+        }
+    }
+    .footer .content {
+        margin-left: 66px;
+        a {
+            color: white;
+        }
+        p {
+            color: #8f8f8f;
+        }
+    }
+    .footer .bottom .social-icons {
+        float: right;
+    }
+    .footer .bottom .copyright {
+        float: left;
+        color: #8f8f8f;
+        ;
+    }
+}
+footer son
+contact section
+
+.connect {
+    padding: 38px 0;
+    .contacts {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        .icon {
+            margin-bottom: 18px;
+            color: $blueMain;
+            font-size: 40px;
+            line-height: 40px;
+            display: inline-block;
+            height: 40px;
+        }
+    }
+}
+contact son
+appointment request section
+
+.request {
+    img {
+        padding-top: 63px;
+    }
+    padding-top: 50px;
+    .longWidth {
+        display: block;
+        border: none;
+        background: #f5f5f5;
+        width: 100%;
+        outline: none !important;
+        line-height: 40px;
+        padding: 0 20px;
+        color: #414141;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    label {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #414141;
+        margin-bottom: 8px;
+    }
+    fieldset {
+        padding: 38px;
+        border: none;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+        background: white;
+        .form-group {
+            margin-bottom: 22px;
+        }
+    }
+}
+
+
+request son
+ */

@@ -1,0 +1,92 @@
+.requestAppointment {
+    /*questions section*/
+    .questions {
+        text-align: center;
+        margin-top: 47px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        .overlay {
+            padding: 100px 0;
+            background: rgba(0, 0, 0, 1.8);
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            opacity: 0.7
+        }
+        h2 {
+            color: white;
+        }
+    }
+    /*questions section son*/
+    /*reklam section*/
+    .reklam {
+        padding: 38px 0;
+        img {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .clients .image {
+            float: left;
+            width: 20%;
+            vertical-align: middle;
+            margin-right: 0;
+            margin-left: 0;
+            a {
+                opacity: .5;
+                display: block;
+            }
+        }
+        .clients .image a:hover {
+            opacity: 1;
+        }
+    }
+    /*reklam section son*/
+}
+
+.blank {
+    @include basliq;
+    img {
+        padding-top: 190px;
+    }
+    .col-sm-8 {
+        .form-group {
+            margin-bottom: 22px;
+        }
+        label {
+            vertical-align: top;
+            margin-right: 22px
+        }
+        .howDidYouHear {
+            padding-bottom: 40px;
+        }
+        .verifyInput {
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+            line-height: 34px;
+            height: 36px;
+            display: inline-block;
+            width: 338px;
+            padding: 0 18px;
+            font-size: 14px;
+        }
+      /*  .longWidth {
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+            line-height: 34px;
+            height: 36px;
+            display: inline-block;
+            width: 100%;
+            padding: 0 18px;
+            font-size: 14px;
+        }*/
+    }
+}
+
+
+
