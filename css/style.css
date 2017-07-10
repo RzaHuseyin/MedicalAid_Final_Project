@@ -362,6 +362,7 @@ request son
         filter: brightness(40%);
         z-index: 1; }
       .homePage .owlCarusel .slider-dp img:hover {
+        transition: .4s ease;
         filter: brightness(80%); }
       .homePage .owlCarusel .slider-dp p {
         font-weight: 700;
@@ -1052,6 +1053,11 @@ request son
   opacity: .75 !important;
   color: white !important;
   transition: .4s ease !important; }
+
+.bBtn img, .wBtn img, .button img {
+  margin-right: 3px; }
+.bBtn i, .wBtn i, .button i {
+  margin-right: 3px; }
 
 .wBtn:hover {
   border: 1px solid #0199ED !important;

@@ -103,6 +103,7 @@
                 z-index: 1;
             }
             img:hover {
+                transition: .4s ease;
                 filter: brightness(80%);
             }
             p {

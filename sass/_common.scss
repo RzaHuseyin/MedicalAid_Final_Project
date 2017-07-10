@@ -8,6 +8,14 @@
   color: white !important;
   transition: .4s ease !important;
 }
+.bBtn,.wBtn,.button{
+img{
+    margin-right: 3px;
+}
+i{
+    margin-right: 3px;
+}
+}
 
 .wBtn:hover{
     border: 1px solid $blueMain !important;
